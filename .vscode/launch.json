@@ -7,8 +7,8 @@
         {
             "name": "Open with Live Server",
             "type": "chrome",
-            "request": "launch",
-            "url": "http://localhost:5500/your-html-file.html",
+            "request": "attach",
+            "url": "http://localhost:5500/",
             "webRoot": "${workspaceFolder}"
         },
        
